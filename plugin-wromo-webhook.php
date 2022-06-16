@@ -25,10 +25,9 @@
     $args = array(
         'body' => $array(
             'message' => $message
-          )
-        );
+        )
+    );
 
-        wp_remote_post( $url, $args );
+    wp_remote_post( $url, $args );
  }
 
- 
