@@ -18,17 +18,17 @@
 
  function wromox_save_post_webhook_wordpress( $post_id, $post ) {
 
-    $message = 'Post #' . $post_id . ': ' . $post->$post_title . ' was save_post';
+    $message = 'Post #' . $post_id . 'has benn created with title - ' . $post->$post_title;
 
-    $url = '';
+    $url = 'https://api.wromo.com/v1/post/';
 
     $args = array(
         'body' => $array(
-            'message' => $post->$post_title . ': ' . $post->$post_title . 'was save_post', 'url' => $post->$post_title . ': ' . $post->$post_title . 'was save_post', 'type' => 'post', 'id' => $post->$post_title . ': ' . $post->$post_title . 'was save_post', 'url' => $post->$post_title . ': ' . $post->$post_title . 'was save_post', 'type' => 'post', 'id' => $post->$post_title . ': ' . $post->$post_title . 'was save_post', 'url' => $post->$post_title . ': ' . $post->$post_title . 'was save_post';
-        )
-    );
+            'message' => $message
+          )
+        );
 
-        wp_remote_post( $post_id, $url, $args );
+        wp_remote_post( $url, $args );
  }
 
  
