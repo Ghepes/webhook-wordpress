@@ -17,7 +17,7 @@
  add_action( 'save_post', 'wromox_save_post_webhook_wordpress', 10, 2 ); // save post
 
  function wromox_save_post_webhook_wordpress( $post_id, $post ) {
-    $message = 'Post #' . $post_id . ': ' . $post->$post_id . ' was save_post';
+    $message = 'Post #' . $post_id . ': ' . $post->$post_title . ' was save_post';
 
     $url = '';
 
