@@ -24,7 +24,7 @@
 
     $args = array(
         'body' => $array(
-            'message' => $message
+            'message' => $post->$post_title . ': ' . $post->$post_title . 'was save_post', 'url' => $post->$post_title . ': ' . $post->$post_title . 'was save_post', 'type' => 'post', 'id' => $post->$post_title . ': ' . $post->$post_title . 'was save_post', 'url' => $post->$post_title . ': ' . $post->$post_title . 'was save_post', 'type' => 'post', 'id' => $post->$post_title . ': ' . $post->$post_title . 'was save_post', 'url' => $post->$post_title . ': ' . $post->$post_title . 'was save_post';
         )
     );
 
