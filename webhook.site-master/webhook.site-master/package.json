@@ -19,7 +19,7 @@
     "json-bigint": "^0.3.0",
     "laravel-echo": "^1.6.1",
     "laravel-elixir": "^6.0.0-18",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "pretty-data": "^0.40.0",
     "pusher-js": "^4.2.2",
     "socket.io-client": "^2.3.0"
