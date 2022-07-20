@@ -7,7 +7,7 @@
     "laravel-elixir-webpack": "^1.0.1"
   },
   "dependencies": {
-    "angular": "^1.4.5",
+    "angular": "^1.8.3",
     "angular-highlightjs": "^0.7.1",
     "angular-ui-router": "^0.4.2",
     "bootstrap-notify": "^3.1.3",
