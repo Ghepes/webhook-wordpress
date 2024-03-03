@@ -1,4 +1,4 @@
-<?
+s<?
 /**
  * Plugin Name: Wromo Webhook in Wordpress
  * Plugin URI: https://github.com/Ghepes/webhook-wordpress
@@ -7,7 +7,7 @@
  * Description: Wromo Webhook in Wordpress to PUT GET request commands
  * Version: 1.0.0
  * License: GPL2 or Later GPL-3.0 license
- * License URI: https://github.com/Ersin84/webhook-wordpress/blob/main/LICENSE
+ * License URI: https://github.com/Ghepes/webhook-wordpress/blob/main/LICENSE
  * text-domain: webhook-wordpress
  */
 
